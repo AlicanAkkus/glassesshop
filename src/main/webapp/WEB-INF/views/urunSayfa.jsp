@@ -14,10 +14,11 @@
 
         </div>
 
-        <div class="container">
+        <div class="container" ng-app="sepetApp">
             <div class="row">
                 <div class="col-md-5">
-                    <img class="urunresim" src="<c:url value="/resources/product_images/${urun.urunId}.png"/> " alt="image" style="width: 100%; height: 300px;"/>
+                    <img class="urunresim" src="<c:url value="/resources/product_images/${urun.urunId}.png"/> "
+                         alt="image" style="width: 100%; height: 300px;"/>
                 </div>
                 <div class="col-md-5 urunyazi">
                     <table class="table">
@@ -38,7 +39,7 @@
                             <td>${urun.urunAciklama}</td>
                         </tr>
                         <tr>
-                            <td>Ürün Rengi </td>
+                            <td>Ürün Rengi</td>
                             <td>${urun.urunRenk}</td>
                         </tr>
                         <tr>
@@ -46,19 +47,34 @@
                             <td>${urun.urunCins}</td>
                         </tr>
                         <tr>
-                            <td>Ürün Stok </td>
+                            <td>Ürün Stok</td>
                             <td>${urun.urunStok}</td>
                         </tr>
                         <tr>
-                            <td>Ürün Durumu </td>
+                            <td>Ürün Durumu</td>
                             <td>${urun.urunDurum}</td>
                         </tr>
                         <tr>
-                            <td>Ürün Fiyat </td>
+                            <td>Ürün Fiyat</td>
                             <td class="urunfiyat">${urun.urunFiyat} TL</td>
                         </tr>
                         </tbody>
+                        <c:set var="role" scope="page" value="${param.role}"/>
+                        <c:set var="url" scope="page" value="/urunListe"/>
+                        <c:if test="${role=='admin'}">
+                            <c:set var="url" scope="page" value="/admin/urunEnvanter"/>
+                        </c:if>
+
+
+
+
                     </table>
+
+                    <p ng-controller="sepetCtrl">
+                        <a href="<c:url value="${url}"/> " class="btn btn-sq btn-primary"><i class="fa fa-reply fa-5x" aria-hidden="true"></i> <br>Geri</a>
+                        <a href="#" class="btn btn-sq btn-warning" ng-click="sepeteEkle('${urun.urunId}')"><i class="fa fa-cart-plus fa-5x" aria-hidden="true"></i><br> Sepete Ekle </a>
+                        <a href="<spring:url value="/sepet"/> " class="btn btn-sq btn-info"><i class="fa fa-shopping-bag fa-5x" aria-hidden="true"></i><br>Sepeti Görüntüle </a>
+                    </p>
                 </div>
 
             </div>
@@ -72,5 +88,5 @@
 
 </div>
 
-
+<script src="<c:url value="/resources/js/controller.js"/> "></script>
 <%@include file="template/footer.jsp" %>

@@ -48,7 +48,7 @@
                             </a>
                             <a href="<spring:url value="/admin/urunEnvanter/urunDuzenle/${urun.urunId}" />"
                                class="btn btn-info">Düzenle<i class="fa fa-pencil-square-o fa-4x"
-                                                                 aria-hidden="true"></i>
+                                                              aria-hidden="true"></i>
                             </a>
                         </div>
 

@@ -25,11 +25,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <title>Gözlük Dükkanı</title>
     <link href="<c:url value="/resources/css/bootstrap.css"/> " rel="stylesheet" type="text/css" media="all"/>
+    <script src="<c:url value="/resources/js/angular.min.js"/> "
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
     <link href="<c:url value="/resources/urun/css.css"/> " rel="stylesheet" type="text/css"/>
     <link href="<c:url value="/resources/urun/urunsayfa.css"/> " rel="stylesheet" type="text/css"/>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css"/>
     <!-- Custom Theme files -->
     <!--theme-style-->
     <link href="<c:url value="/resources/css/style.css"/> " rel="stylesheet" type="text/css" media="all"/>
