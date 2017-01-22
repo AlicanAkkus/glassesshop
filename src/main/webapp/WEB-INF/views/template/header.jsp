@@ -29,10 +29,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
     <link href="<c:url value="/resources/urun/css.css"/> " rel="stylesheet" type="text/css"/>
     <link href="<c:url value="/resources/urun/urunsayfa.css"/> " rel="stylesheet" type="text/css"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Custom Theme files -->
     <!--theme-style-->
     <link href="<c:url value="/resources/css/style.css"/> " rel="stylesheet" type="text/css" media="all"/>
-
+    <link href="<c:url value="/resources/admin/admin.css"/> " rel="stylesheet" type="text/css" media="all"/>
     <!--//theme-style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -56,14 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     });</script>
     <script src="<c:url value="/resources/js/simpleCart.min.js"/>"></script>
 </head>
-<body style="background: rgba(243,226,199,1);
-background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(50%, rgba(193,158,103,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
-background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );">
+<body style="background-image: url('http://wallpapercave.com/wp/Yp1uJol.jpg')">
 <!--header-->
 
 <div class="container">
@@ -76,7 +70,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
                 <li class="color4"><a href="<c:url value="/"/> ">Anasayfa</a></li>
 
                 <li><a class="color4" href="<c:url value="/urunListe"/> ">Gözlükler</a></li>
-                <li><a class="color6" href="contact.html">Yönetici</a></li>
+                <li><a class="color6" href="<c:url value="/admin"/> ">Yönetici</a></li>
             </ul>
         </div>
 

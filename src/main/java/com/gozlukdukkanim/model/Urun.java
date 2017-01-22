@@ -1,18 +1,33 @@
 package com.gozlukdukkanim.model;
 
+import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.persistence.*;
+import javax.validation.constraints.Min;
+
 /**
  * Created by memoricAb on 19.01.2017.
  */
+@Entity
 public class Urun {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private String urunId;
+    @NotEmpty(message = "Ürün markası boş bırakılamaz!")
     private String urunMarka;
     private String urunKategori;
     private String urunAciklama;
-    private int urunFiyat;
+    @Min(value=0,message = "Ürün fiyatı 0'dan az olamaz.")
+    private double urunFiyat;
     private String urunRenk;
+    @Min(value = 0,message = "Ürün stok durumu 0'dan az olamaz!")
     private int urunStok;
     private String urunDurum;
+    private String urunCins;
+
+    @Transient
+    private MultipartFile urunResim;
 
     public String getUrunId() {
         return urunId;
@@ -46,11 +61,11 @@ public class Urun {
         this.urunAciklama = urunAciklama;
     }
 
-    public int getUrunFiyat() {
+    public double getUrunFiyat() {
         return urunFiyat;
     }
 
-    public void setUrunFiyat(int urunFiyat) {
+    public void setUrunFiyat(double urunFiyat) {
         this.urunFiyat = urunFiyat;
     }
 
@@ -76,5 +91,21 @@ public class Urun {
 
     public void setUrunDurum(String urunDurum) {
         this.urunDurum = urunDurum;
+    }
+
+    public String getUrunCins() {
+        return urunCins;
+    }
+
+    public void setUrunCins(String urunCins) {
+        this.urunCins = urunCins;
+    }
+
+    public MultipartFile getUrunResim() {
+        return urunResim;
+    }
+
+    public void setUrunResim(MultipartFile urunResim) {
+        this.urunResim = urunResim;
     }
 }
