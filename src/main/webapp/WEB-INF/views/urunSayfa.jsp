@@ -20,7 +20,7 @@
                     <img class="urunresim" src="<c:url value="/resources/product_images/${urun.urunId}.png"/> "
                          alt="image" style="width: 100%; height: 300px;"/>
                 </div>
-                <div class="col-md-5 urunyazi">
+                <div class="col-md-5 urunyazi bg-success">
                     <table class="table">
                         <thead>
                         <tr>

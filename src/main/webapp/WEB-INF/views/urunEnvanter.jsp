@@ -11,7 +11,7 @@
         </div>
 
 
-        <table class="table table-bordered bg-dark">
+        <table class="table table-bordered bg-success">
             <thead>
             <tr class="bg-success">
                 <th>Ürün Resmi</th>

@@ -39,8 +39,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--//theme-style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="New Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
@@ -59,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     });</script>
     <script src="<c:url value="/resources/js/simpleCart.min.js"/>"></script>
 </head>
-<body style="background-image: url('http://wallpapercave.com/wp/Yp1uJol.jpg')">
+<body class="bg-info">
 <!--header-->
 
 <div class="container">
@@ -73,6 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <li><a class="color4" href="<c:url value="/urunListe"/> ">Gözlükler</a></li>
                 <li><a class="color6" href="<c:url value="/admin"/> ">Yönetici</a></li>
+                <li><a class="bg-primary" href="<spring:url value="/sepet"/>" ><i class="fa fa-shopping-bag fa-3x"></i> </a> </li>
             </ul>
         </div>
 

@@ -24,7 +24,7 @@
             <form:hidden path="urunId" value="${urun.urunId}"/>
 
             <div class="form-group">
-                <table class="table table-bordered bg-dark">
+                <table class="table table-bordered bg-primary">
                     <thead>
                     <tr>
                         <th><label  for="marka">Ürün Markası</label><form:errors path="urunMarka" cssStyle="color:red;"/></th>

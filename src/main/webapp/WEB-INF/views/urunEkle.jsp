@@ -22,7 +22,7 @@
 
         <form:form action="${pageContext.request.contextPath}/admin/urunEnvanter/urunEkle" method="post" commandName="urun" enctype="multipart/form-data">
             <div class="form-group">
-                <table class="table table-bordered bg-dark">
+                <table class="table table-bordered bg-success">
                     <thead>
                     <tr>
                         <th><label  for="marka">Ürün Markası</label><form:errors path="urunMarka" cssStyle="color:red;"/> </th>
@@ -66,7 +66,7 @@
                     </tr>
                     <tr>
                         <td><label class="control-label" for="resim">Ürün Resmi</label></td>
-                        <td><form:input path="urunResim" id="resim" type="file" class="form:input-large"/> </td>
+                        <td><form:input path="urunResim" id="resim" type="file" class="form:input-large" cssClass="btn btn-primary"/> </td>
                     </tr>
 
                     </tbody>
