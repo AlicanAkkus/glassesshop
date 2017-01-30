@@ -15,11 +15,10 @@
             <div class="page-header">
 
 
-                    <h1>Sepetiniz!</h1>
+                <h1>Sepetiniz!</h1>
 
 
-                    <p class="lead">Sepetinizdeki ürünleri görüntüleyin ve işlem yapın!</p>
-
+                <p class="lead">Sepetinizdeki ürünleri görüntüleyin ve işlem yapın!</p>
 
 
             </div>
@@ -42,12 +41,14 @@
                                         </div>
                                         <br>
                                         <div class="col-xs-6">
-                                            <a href="<spring:url value="/urunListe"/>"  class="btn btn-primary btn-sm btn-block">
+                                            <a href="<spring:url value="/urunListe"/>"
+                                               class="btn btn-primary btn-sm btn-block">
                                                 <i class="fa fa-share" aria-hidden="true"></i> Alışverişe Devam
                                             </a>
                                         </div>
                                         <div class="col-xs-6">
-                                            <a href="#" ng-click="sepetTemizle()"  class="btn btn-sm btn-success btn-block">
+                                            <a href="#" ng-click="sepetTemizle()"
+                                               class="btn btn-sm btn-success btn-block">
                                                 <i class="fa fa-eraser"></i> Sepeti Temizle
                                             </a>
                                         </div>
@@ -56,33 +57,40 @@
                             </div>
                             <div class="panel-body">
                                 <div class="row" ng-repeat="item in sepet.sepetItemler">
-                                    <div class="col-xs-2"><img class="img-responsive" ng-src="/gozlukdukkanim/resources/product_images/{{item.urun.urunId}}.png" >
+                                    <div class="col-xs-2"><img class="img-responsive"
+                                                               ng-src="/gozlukdukkanim/resources/product_images/{{item.urun.urunId}}.png">
                                     </div>
                                     <div class="col-xs-4">
                                         <h4 class="product-name"><strong>{{item.urun.urunMarka}}</strong></h4><br>
                                         <h4>
                                             <small>{{item.urun.urunKategori}}</small>
 
-                                        </h4><br>
+                                        </h4>
+                                        <br>
                                         <h4>
                                             <small>{{item.urun.urunRenk}}</small>
 
 
                                         </h4>
-                                        <hr><br>
+                                        <hr>
+                                        <br>
                                     </div>
                                     <div class="col-xs-6">
                                         <div class="col-xs-6 text-right">
-                                            <h6><strong>{{item.urun.urunFiyat}} <span class="text-muted">x</span></strong></h6>
+                                            <h6><strong>{{item.urun.urunFiyat}} <span
+                                                    class="text-muted">x</span></strong></h6>
                                         </div>
                                         <div class="col-xs-4">
-                                            <input  type="text" class="form-control input-sm" value="{{item.adet}}" disabled>
+                                            <input type="text" class="form-control input-sm" value="{{item.adet}}"
+                                                   disabled>
                                         </div>
                                         <div class="col-xs-6 text-right">
-                                            <h6><strong> =<span class="text-muted">{{item.toplamFiyat}}</span></strong></h6>
+                                            <h6><strong> =<span class="text-muted">{{item.toplamFiyat}}</span></strong>
+                                            </h6>
                                         </div>
                                         <div class="col-xs-2">
-                                            <a href="#"  class="btn btn-link btn-xs" ng-click="sepettenSil(item.urun.urunId)">
+                                            <a href="#" class="btn btn-link btn-xs"
+                                               ng-click="sepettenSil(item.urun.urunId)">
                                                 <i class="fa fa-trash-o" aria-hidden="true"></i>
                                             </a>
                                         </div>
