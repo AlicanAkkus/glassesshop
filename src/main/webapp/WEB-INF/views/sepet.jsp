@@ -56,7 +56,7 @@
                             </div>
                             <div class="panel-body">
                                 <div class="row" ng-repeat="item in sepet.sepetItemler">
-                                    <div class="col-xs-2"><img class="img-responsive" src="http://placehold.it/100x70">
+                                    <div class="col-xs-2"><img class="img-responsive" ng-src="/gozlukdukkanim/resources/product_images/{{item.urun.urunId}}.png" >
                                     </div>
                                     <div class="col-xs-4">
                                         <h4 class="product-name"><strong>{{item.urun.urunMarka}}</strong></h4><br>
