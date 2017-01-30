@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b86f79e-57ee-408a-993e-629e30f06bd0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sepet.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sepet.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp" />
@@ -35,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+              <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1064,12 +1065,12 @@
       <workItem from="1484872181303" duration="1366000" />
       <workItem from="1485037400615" duration="20574000" />
       <workItem from="1485081278111" duration="11675000" />
-      <workItem from="1485776122901" duration="6912000" />
+      <workItem from="1485776122901" duration="7367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56635000" />
+    <option name="totallyTimeSpent" value="57090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1512,7 +1513,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="24" />
           <folding />
         </state>
       </provider>
