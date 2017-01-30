@@ -19,6 +19,9 @@ Kategori Yönetimi(In proccess)
 ##Teknik Detaylar
 
 Front-End: Bootstrap, Jquery
+
 Client-Side: AngularJS, JSP
+
 Back-End: Java Spring MVC Framework
+
 Server-Side: H2 Local Database, Hibernate JPA, ORM
