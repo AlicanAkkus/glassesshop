@@ -20,7 +20,7 @@
         </div>
 
 
-        <form:form action="${pageContext.request.contextPath}/admin/urunEnvanter/urunDuzenle" method="post"
+        <form:form action="${pageContext.request.contextPath}/admin/urun/urunDuzenle" method="post"
                    commandName="urun" enctype="multipart/form-data">
             <form:hidden path="urunId" value="${urun.urunId}"/>
 

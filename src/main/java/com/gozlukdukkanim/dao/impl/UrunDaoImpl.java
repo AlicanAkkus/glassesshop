@@ -17,45 +17,45 @@ import java.util.List;
 
 @Repository
 @Transactional
-public class UrunDaoImpl implements UrunDao{
+public class UrunDaoImpl implements UrunDao {
 
     @Autowired
     private SessionFactory sessionFactory;
 
-
-    public void urunEkle(Urun urun){
-        Session session = sessionFactory.getCurrentSession();
-        session.saveOrUpdate(urun);
-        session.flush();
-    }
-
-    public Urun getUrunById(String id) {
-       Session session = sessionFactory.getCurrentSession();
-       Urun urun = (Urun) session.get(Urun.class,id);
-
-       return urun;
-
-    }
-
-    public List<Urun> getTumUrunler() {
+    public List<Urun> getUrunListe() {
         Session session = sessionFactory.getCurrentSession();
         Query query = session.createQuery("from Urun");
-        List<Urun> urunler= query.list();
+        List<Urun> urunListe = query.list();
         session.flush();
-
-        return  urunler;
+        return urunListe;
     }
 
-    public void urunSil(String id) {
-        Session session= sessionFactory.getCurrentSession();
-        session.delete(getUrunById(id));
+    public Urun getUrunById(int id) {
+        Session session = sessionFactory.getCurrentSession();
+        Urun urun = (Urun) session.get(Urun.class, id);
         session.flush();
-
+        return urun;
     }
 
-    public void urunDuzenle(Urun urun){
+    public void urunEkle(Urun urun) {
         Session session = sessionFactory.getCurrentSession();
         session.saveOrUpdate(urun);
         session.flush();
+
+    }
+
+    public void urunDuzenle(Urun urun) {
+        Session session = sessionFactory.getCurrentSession();
+        session.saveOrUpdate(urun);
+        session.flush();
+
+    }
+
+    public void urunSil(Urun urun) {
+        Session session = sessionFactory.getCurrentSession();
+        session.delete(urun);
+        session.flush();
+
+
     }
 }

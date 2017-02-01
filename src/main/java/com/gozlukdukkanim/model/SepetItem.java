@@ -1,23 +1,43 @@
 package com.gozlukdukkanim.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import javax.persistence.*;
+import java.io.Serializable;
+
 /**
  * Created by memoricAb on 22.01.2017.
  */
-public class SepetItem {
-
+@Entity
+public class SepetItem implements Serializable {
+    private static final long serialVersionUID = 4938317054338767752L;
+    @Id
+    @GeneratedValue
+    private int sepetItemId;
+    @ManyToOne
+    @JoinColumn(name = "sepetId")
+    @JsonIgnore
+    private Sepet sepet;
+    @ManyToOne
+    @JoinColumn(name = "urunId")
     private Urun urun;
     private int adet;
     private double toplamFiyat;
 
-
-    public SepetItem() {
+    public int getSepetItemId() {
+        return sepetItemId;
     }
 
-    public SepetItem(Urun urun) {
-        this.urun = urun;
-        this.adet = 1;
-        this.toplamFiyat = urun.getUrunFiyat();
+    public void setSepetItemId(int sepetItemId) {
+        this.sepetItemId = sepetItemId;
+    }
 
+    public Sepet getSepet() {
+        return sepet;
+    }
+
+    public void setSepet(Sepet sepet) {
+        this.sepet = sepet;
     }
 
     public Urun getUrun() {
@@ -37,7 +57,7 @@ public class SepetItem {
     }
 
     public double getToplamFiyat() {
-        return toplamFiyat*adet;
+        return toplamFiyat;
     }
 
     public void setToplamFiyat(double toplamFiyat) {

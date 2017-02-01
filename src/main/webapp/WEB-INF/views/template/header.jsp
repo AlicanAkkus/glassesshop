@@ -69,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <ul class="memenu skyblue">
                 <li class="color4"><a href="<c:url value="/"/> ">Anasayfa</a></li>
 
-                <li><a class="color4" href="<c:url value="/urunListe"/> ">Gözlükler</a></li>
+                <li><a class="color4" href="<c:url value="/urun/urunListe"/> ">Gözlükler</a></li>
                 <li><a class="color6" href="<c:url value="/admin"/> ">Yönetici</a></li>
                 <li><a class="bg-primary" href="<spring:url value="/sepet"/>" ><i class="fa fa-shopping-bag fa-3x"></i> </a> </li>
             </ul>

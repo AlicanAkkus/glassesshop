@@ -17,7 +17,7 @@
         <div class="container" ng-app="sepetApp">
             <div class="row">
                 <div class="col-md-5">
-                    <img class="urunresim" src="<c:url value="/resources/product_images/${urun.urunId}.png"/> "
+                    <img class="urunresim" src="<c:url value="/resources/urun_resimler/${urun.urunId}.png"/> "
                          alt="image" style="width: 100%; height: 300px;"/>
                 </div>
                 <div class="col-md-5 urunyazi bg-success">
@@ -60,7 +60,7 @@
                         </tr>
                         </tbody>
                         <c:set var="role" scope="page" value="${param.role}"/>
-                        <c:set var="url" scope="page" value="/urunListe"/>
+                        <c:set var="url" scope="page" value="/urun/urunListe"/>
                         <c:if test="${role=='admin'}">
                             <c:set var="url" scope="page" value="/admin/urunEnvanter"/>
                         </c:if>

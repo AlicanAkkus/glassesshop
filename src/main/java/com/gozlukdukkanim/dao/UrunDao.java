@@ -8,13 +8,14 @@ import java.util.List;
  * Created by memoricAb on 22.01.2017.
  */
 public interface UrunDao {
+    List<Urun> getUrunListe();
+
+    Urun getUrunById(int id);
+
     void urunEkle(Urun urun);
 
-    Urun getUrunById(String id);
-
-    List<Urun> getTumUrunler();
-
-
-    void urunSil(String id);
     void urunDuzenle(Urun urun);
+
+    void urunSil(Urun urun);
+
 }

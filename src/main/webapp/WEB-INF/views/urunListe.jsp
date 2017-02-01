@@ -15,7 +15,7 @@
             <c:forEach items="${urunler}" var="urun">
 
                 <div class="col-md-2 column productbox">
-                    <img src="<c:url value="/resources/product_images/${urun.urunId}.png"/> " class="img-responsive">
+                    <img src="<c:url value="/resources/urun_resimler/${urun.urunId}.png"/> " class="img-responsive">
                     <div class="producttitle bg-primary ">${urun.urunMarka}</div>
                     <div class="productdesc bg-warning">${urun.urunAciklama}</div>
                     <div class="productcolor bg-warning">${urun.urunRenk}</div>
@@ -24,7 +24,7 @@
                         <div class="pricetext bg-danger">${urun.urunFiyat}TL</div>
                     </div>
                     <div class="btn-group btn-group-justified">
-                        <a href="<spring:url value="/urunListe/urunSayfa/${urun.urunId}" />"
+                        <a href="<spring:url value="/urun/urunSayfa/${urun.urunId}" />"
                            class="btn btn-sq-sm btn-success">
                             <i class="fa fa-search-plus fa-3x"></i><br/>
                         </a>

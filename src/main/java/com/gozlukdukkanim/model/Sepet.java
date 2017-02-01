@@ -1,82 +1,58 @@
 package com.gozlukdukkanim.model;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by memoricAb on 22.01.2017.
  */
-public class Sepet {
-    private String sepetId;
-    private Map<String, SepetItem> sepetItemler;
-    private double tumToplamFiyat;
+@Entity
+public class Sepet implements Serializable {
 
-    public Sepet() {
-        sepetItemler = new HashMap<String, SepetItem>();
-        tumToplamFiyat = 0;
-    }
+    private static final long serialVersionUID = 1944136909119391556L;
+    @Id
+    @GeneratedValue
+    private int sepetId;
+    @OneToMany(mappedBy = "sepet",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    private List<SepetItem> sepetItemler;
+    @OneToOne
+    @JoinColumn(name = "musteriId")
+    @JsonIgnore
+    private Musteri musteri;
+    private double sepetToplam;
 
-    public Sepet(String sepetId) {
-        this();
-        this.sepetId = sepetId;
-
-    }
-
-    public String getSepetId() {
+    public int getSepetId() {
         return sepetId;
     }
 
-    public void setSepetId(String sepetId) {
+    public void setSepetId(int sepetId) {
         this.sepetId = sepetId;
     }
 
-    public Map<String, SepetItem> getSepetItemler() {
+    public List<SepetItem> getSepetItemler() {
         return sepetItemler;
     }
 
-    public void setSepetItemler(Map<String, SepetItem> sepetItemler) {
+    public void setSepetItemler(List<SepetItem> sepetItemler) {
         this.sepetItemler = sepetItemler;
     }
 
-    public double getTumToplamFiyat() {
-        return tumToplamFiyat;
+    public Musteri getMusteri() {
+        return musteri;
     }
 
-    public void setTumToplamFiyat(double tumToplamFiyat) {
-        this.tumToplamFiyat = tumToplamFiyat;
+    public void setMusteri(Musteri musteri) {
+        this.musteri = musteri;
     }
 
-
-    public void sepetItemEkle(SepetItem item) {
-        String urunId = item.getUrun().getUrunId();
-
-
-        if (sepetItemler.containsKey(urunId)) {
-            SepetItem varolanSepetItem = sepetItemler.get(urunId);
-            varolanSepetItem.setAdet(varolanSepetItem.getAdet() + item.getAdet());
-            sepetItemler.put(urunId, varolanSepetItem);
-        } else {
-            sepetItemler.put(urunId, item);
-        }
-
-        guncelleTumToplamFiyat();
-
+    public double getSepetToplam() {
+        return sepetToplam;
     }
 
-    public void sepetItemSil(SepetItem item) {
-        String urunId = item.getUrun().getUrunId();
-        sepetItemler.remove(urunId);
-        guncelleTumToplamFiyat();
-
+    public void setSepetToplam(double sepetToplam) {
+        this.sepetToplam = sepetToplam;
     }
-
-    public void guncelleTumToplamFiyat() {
-        tumToplamFiyat = 0;
-        for (SepetItem item : sepetItemler.values()) {
-            tumToplamFiyat = tumToplamFiyat + item.getToplamFiyat();
-
-        }
-
-    }
-
 }

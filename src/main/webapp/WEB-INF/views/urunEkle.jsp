@@ -20,7 +20,7 @@
         </div>
 
 
-        <form:form action="${pageContext.request.contextPath}/admin/urunEnvanter/urunEkle" method="post" commandName="urun" enctype="multipart/form-data">
+        <form:form action="${pageContext.request.contextPath}/admin/urun/urunEkle" method="post" commandName="urun" enctype="multipart/form-data">
             <div class="form-group">
                 <table class="table table-bordered bg-success">
                     <thead>

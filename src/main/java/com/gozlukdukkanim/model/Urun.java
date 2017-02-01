@@ -1,27 +1,33 @@
 package com.gozlukdukkanim.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
+import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by memoricAb on 19.01.2017.
  */
 @Entity
-public class Urun {
+public class Urun implements Serializable {
+
+
+    private static final long serialVersionUID = 2919459288275113053L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String urunId;
+    private int urunId;
     @NotEmpty(message = "Ürün markası boş bırakılamaz!")
     private String urunMarka;
     private String urunKategori;
     private String urunAciklama;
-    @Min(value=0,message = "Ürün fiyatı 0'dan az olamaz.")
+    @Min(value = 0, message = "Ürün fiyatı 0'dan az olamaz.")
     private double urunFiyat;
     private String urunRenk;
-    @Min(value = 0,message = "Ürün stok durumu 0'dan az olamaz!")
+    @Min(value = 0, message = "Ürün stok durumu 0'dan az olamaz!")
     private int urunStok;
     private String urunDurum;
     private String urunCins;
@@ -29,11 +35,15 @@ public class Urun {
     @Transient
     private MultipartFile urunResim;
 
-    public String getUrunId() {
+    @OneToMany(mappedBy = "urun",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JsonIgnore
+    private List<SepetItem> sepetItemList;
+
+    public int getUrunId() {
         return urunId;
     }
 
-    public void setUrunId(String urunId) {
+    public void setUrunId(int urunId) {
         this.urunId = urunId;
     }
 
@@ -107,5 +117,13 @@ public class Urun {
 
     public void setUrunResim(MultipartFile urunResim) {
         this.urunResim = urunResim;
+    }
+
+    public List<SepetItem> getSepetItemList() {
+        return sepetItemList;
+    }
+
+    public void setSepetItemList(List<SepetItem> sepetItemList) {
+        this.sepetItemList = sepetItemList;
     }
 }

@@ -26,7 +26,7 @@
                             <i class="fa fa-user fa-5x" aria-hidden="true"></i><br/>
                             <br>Ürün Envanter
                         </a>
-                        <a href="<c:url value="/admin/urunEnvanter/urunEkle" />" class="btn btn-sq-lg btn-success">
+                        <a href="<c:url value="/admin/urun/urunEkle" />" class="btn btn-sq-lg btn-success">
                             <i class="fa fa-cart-plus fa-5x"></i><br/>
                             <br>Ürün Ekle
                         </a>

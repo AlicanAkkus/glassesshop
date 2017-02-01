@@ -28,7 +28,7 @@
             </thead>
             <c:forEach items="${urunler}" var="urun">
                 <tr>
-                    <td><img class="urunresim" src="<c:url value="/resources/product_images/${urun.urunId}.png"/> "
+                    <td><img class="urunresim" src="<c:url value="/resources/urun_resimler/${urun.urunId}.png"/> "
                              alt="image" style="width: 100%"/></td>
                     <td>${urun.urunMarka}</td>
                     <td>${urun.urunKategori}</td>
@@ -40,13 +40,13 @@
                     <td>${urun.urunFiyat} TL</td>
                     <td>
                         <div class="btn-group-vertical">
-                            <a href="<spring:url value="/urunListe/urunSayfa/${urun.urunId}" />"
+                            <a href="<spring:url value="/urun/urunSayfa/${urun.urunId}" />"
                                class="btn btn-primary">İncele<i class="fa fa-sign-in fa-4x" aria-hidden="true"></i>
                             </a>
-                            <a href="<spring:url value="/admin/urunEnvanter/urunSil/${urun.urunId}" />"
+                            <a href="<spring:url value="/admin/urun/urunSil/${urun.urunId}" />"
                                class="btn btn-danger">Sil<i class="fa fa-times fa-4x" aria-hidden="true"></i>
                             </a>
-                            <a href="<spring:url value="/admin/urunEnvanter/urunDuzenle/${urun.urunId}" />"
+                            <a href="<spring:url value="/admin/urun/urunDuzenle/${urun.urunId}" />"
                                class="btn btn-info">Düzenle<i class="fa fa-pencil-square-o fa-4x"
                                                               aria-hidden="true"></i>
                             </a>
@@ -56,7 +56,7 @@
             </c:forEach>
         </table>
 
-        <a href="<spring:url value="/admin/urunEnvanter/urunEkle" />" class="btn btn-primary">Ürün Ekle</a>
+        <a href="<spring:url value="/admin/urun/urunEkle" />" class="btn btn-primary">Ürün Ekle</a>
 
 
     </div>
