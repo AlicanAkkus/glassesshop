@@ -22,8 +22,17 @@ public class KargoAdres implements Serializable {
     private String ilce;
     private String ulke;
     private String postaKodu;
+
     @OneToOne
     private Musteri musteri;
+
+    public Musteri getMusteri() {
+        return musteri;
+    }
+
+    public void setMusteri(Musteri musteri) {
+        this.musteri = musteri;
+    }
 
     public int getKargoAdresId() {
         return kargoAdresId;

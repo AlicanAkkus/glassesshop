@@ -20,22 +20,32 @@
         </div>
 
 
-        <form:form action="${pageContext.request.contextPath}/admin/urun/urunEkle" method="post" commandName="urun" enctype="multipart/form-data">
+        <form:form action="${pageContext.request.contextPath}/admin/urun/urunEkle" method="post" commandName="urun"
+                   enctype="multipart/form-data">
             <div class="form-group">
                 <table class="table table-bordered bg-success">
                     <thead>
                     <tr>
-                        <th><label  for="marka">Ürün Markası</label><form:errors path="urunMarka" cssStyle="color:red;"/> </th>
+                        <th><label for="marka">Ürün Markası</label><form:errors path="urunMarka" cssStyle="color:red;"/>
+                        </th>
                         <th><form:input path="urunMarka" id="marka" cssClass="form-control"/></th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <th><label for="kategori">Ürün Kategorisi</label></th>
-                        <td><label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori" value="Güneş Gözlüğü"/> Güneş Gözlüğü </label>
-                            <label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori" value="Yakın Gözlüğü"/> Yakın Gözlüğü </label>
-                            <label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori" value="Uzak Gözlüğü"/> Uzak Gözlüğü  </label>
-                            <label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori" value="Prograsif Gözlük"/> Prograsif Gözlük </label></td>
+                        <td><label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori"
+                                                                             value="Güneş Gözlüğü"/> Güneş
+                            Gözlüğü </label>
+                            <label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori"
+                                                                             value="Yakın Gözlüğü"/> Yakın
+                                Gözlüğü </label>
+                            <label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori"
+                                                                             value="Uzak Gözlüğü"/> Uzak
+                                Gözlüğü </label>
+                            <label class="checkbox-inline"><form:radiobutton path="urunKategori" id="kategori"
+                                                                             value="Prograsif Gözlük"/> Prograsif
+                                Gözlük </label></td>
                     </tr>
                     <tr>
                         <td><label for="aciklama">Ürün Açıklaması</label></td>
@@ -47,26 +57,34 @@
                     </tr>
                     <tr>
                         <td><label for="cins">Ürün Cinsiyet</label></td>
-                        <td><label class="checkbox-inline"><form:radiobutton path="urunCins" id="cins" value="Erkek"/> Erkek</label>
-                            <label class="checkbox-inline"><form:radiobutton path="urunCins" id="cins" value="Kadın"/> Kadın </label>
-                            <label class="checkbox-inline"><form:radiobutton path="urunCins" id="cins" value="Unisex"/> Unisex </label></td>
+                        <td><label class="checkbox-inline"><form:radiobutton path="urunCins" id="cins" value="Erkek"/>
+                            Erkek</label>
+                            <label class="checkbox-inline"><form:radiobutton path="urunCins" id="cins" value="Kadın"/>
+                                Kadın </label>
+                            <label class="checkbox-inline"><form:radiobutton path="urunCins" id="cins" value="Unisex"/>
+                                Unisex </label></td>
                     </tr>
                     <tr>
-                        <td><label for="stok">Ürün Stok Durumu</label> <form:errors path="urunStok" cssStyle="color:red;"/></td>
+                        <td><label for="stok">Ürün Stok Durumu</label> <form:errors path="urunStok"
+                                                                                    cssStyle="color:red;"/></td>
                         <td><form:input path="urunStok" id="stok" cssClass="form-control"/></td>
                     </tr>
                     <tr>
                         <td><label for="durum">Ürün Durumu</label></td>
-                        <td><label class="checkbox-inline"><form:radiobutton path="urunDurum" id="durum" value="Aktif"/> Aktif</label>
-                            <label class="checkbox-inline"><form:radiobutton path="urunDurum" id="durum" value="Inaktif"/> İnaktif </label></td>
+                        <td><label class="checkbox-inline"><form:radiobutton path="urunDurum" id="durum" value="Aktif"/>
+                            Aktif</label>
+                            <label class="checkbox-inline"><form:radiobutton path="urunDurum" id="durum"
+                                                                             value="Inaktif"/> İnaktif </label></td>
                     </tr>
                     <tr>
-                        <td><label for="fiyat">Ürün Fiyatı</label><form:errors path="urunFiyat" cssStyle="color:red;"/></td>
+                        <td><label for="fiyat">Ürün Fiyatı</label><form:errors path="urunFiyat" cssStyle="color:red;"/>
+                        </td>
                         <td><form:input path="urunFiyat" id="fiyat" cssClass="form-control"/></td>
                     </tr>
                     <tr>
                         <td><label class="control-label" for="resim">Ürün Resmi</label></td>
-                        <td><form:input path="urunResim" id="resim" type="file" class="form:input-large" cssClass="btn btn-primary"/> </td>
+                        <td><form:input path="urunResim" id="resim" type="file" class="form:input-large"
+                                        cssClass="btn btn-primary"/></td>
                     </tr>
 
                     </tbody>
@@ -76,10 +94,6 @@
 
 
             </div>
-
-
-
-
 
 
         </form:form>

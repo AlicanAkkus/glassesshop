@@ -2,52 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b86f79e-57ee-408a-993e-629e30f06bd0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/conroller/AdminController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/conroller/AnasayfaController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/conroller/GirisController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/conroller/SepetController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/conroller/SepetItemController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/SepetDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/conroller/AdminController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/conroller/AnasayfaController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/conroller/GirisController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/conroller/SepetController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/conroller/SepetItemController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/dao/impl/SepetDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/product_images/321321467.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/product_images/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/product_images/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/conroller/AdminController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/conroller/AnasayfaController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/conroller/GirisController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/conroller/SepetController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/conroller/SepetItemController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/dao/impl/SepetDaoImpl.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/dao/UrunDao.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/dao/UrunDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/dao/impl/UrunDaoImpl.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/dao/impl/UrunDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/Sepet.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/Sepet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/SepetItem.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/SepetItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/Urun.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/Urun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/dao/UrunDao.class" afterPath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/dao/UrunDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/dao/impl/UrunDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/dao/impl/UrunDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/Sepet.class" afterPath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/Sepet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/SepetItem.class" afterPath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/SepetItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/Urun.class" afterPath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/Urun.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/KargoAdres.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/gozlukdukkanim/model/KargoAdres.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/KargoAdres.class" afterPath="$PROJECT_DIR$/target/classes/com/gozlukdukkanim/model/KargoAdres.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/UrunDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/UrunDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/UrunDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/UrunDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Sepet.java" afterPath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Sepet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/SepetItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/SepetItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Urun.java" afterPath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Urun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sepet.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sepet.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/KargoAdres.java" afterPath="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/KargoAdres.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEkle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEkle.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEnvanter.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEnvanter.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunListe.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunListe.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunSayfa.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunSayfa.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,44 +24,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UrunController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/controller/UrunController.java">
+      <file leaf-file-name="KayitController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/controller/KayitController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="561">
+              <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urunListe.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunListe.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urunEnvanter.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEnvanter.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urunSayfa.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunSayfa.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="62" column="62" lean-forward="false" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,11 +42,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -155,13 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/Controller/AnasayfaController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/com/gozlukdukkanim/controller/AnasayfaController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/AnasayfaController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/urun/javascript.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/urun/urunsayfa.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/memenu.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/admin/admin.css" />
@@ -185,9 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Musteri.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/MusteriSiparis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/MusteriAdres.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/KargoAdres.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/UrunDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/UrunService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/Impl/UrunServiceImpl.java" />
@@ -198,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/controller/AnasayfaController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sepet.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEkle.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEnvanter.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Urun.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp" />
@@ -206,6 +126,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/controller/UrunController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunListe.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunSayfa.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/musteriKayit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEkle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/MusteriService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/MusteriDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/Impl/MusteriServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/KargoAdres.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/MusteriDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/musteriKayitBasarili.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/controller/KayitController.java" />
       </list>
     </option>
   </component>
@@ -335,6 +265,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gozlukdukkanim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gozlukdukkanim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1150,12 +1114,12 @@
       <workItem from="1485776122901" duration="7981000" />
       <workItem from="1485917474293" duration="1121000" />
       <workItem from="1485918610400" duration="7296000" />
-      <workItem from="1485951809030" duration="4275000" />
+      <workItem from="1485951809030" duration="12325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70396000" />
+    <option name="totallyTimeSpent" value="78446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1168,7 +1132,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1190,10 +1154,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21375267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21375267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1226,38 +1190,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="95" column="41" lean-forward="false" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/conroller/GirisController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/sepet/sepet_sayfa.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/conroller/SepetItemController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/memenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1329,115 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/MusteriSiparis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#808#809#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#923#924#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#998#999#0" expanded="false" />
-            <element signature="e#1033#1034#0" expanded="false" />
-            <element signature="e#1063#1064#0" expanded="false" />
-            <element signature="e#1110#1111#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1193#1194#0" expanded="false" />
-            <element signature="e#1228#1229#0" expanded="false" />
-            <element signature="e#1290#1291#0" expanded="false" />
-            <element signature="e#1338#1339#0" expanded="false" />
-            <element signature="e#1379#1380#0" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1468#1469#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/MusteriAdres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#677#678#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#823#824#0" expanded="false" />
-            <element signature="e#855#856#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#959#960#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#1049#1050#0" expanded="false" />
-            <element signature="e#1077#1078#0" expanded="false" />
-            <element signature="e#1109#1110#0" expanded="false" />
-            <element signature="e#1137#1138#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-            <element signature="e#1271#1272#0" expanded="false" />
-            <element signature="e#1311#1312#0" expanded="false" />
-            <element signature="e#1343#1344#0" expanded="false" />
-            <element signature="e#1374#1375#0" expanded="false" />
-            <element signature="e#1401#1402#0" expanded="false" />
-            <element signature="e#1441#1442#0" expanded="false" />
-            <element signature="e#1473#1474#0" expanded="false" />
-            <element signature="e#1509#1510#0" expanded="false" />
-            <element signature="e#1541#1542#0" expanded="false" />
-            <element signature="e#1591#1592#0" expanded="false" />
-            <element signature="e#1633#1634#0" expanded="false" />
-            <element signature="e#1668#1669#0" expanded="false" />
-            <element signature="e#1698#1699#0" expanded="false" />
-            <element signature="e#1745#1746#0" expanded="false" />
-            <element signature="e#1783#1784#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/KargoAdres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#908#909#0" expanded="false" />
-            <element signature="e#942#943#0" expanded="false" />
-            <element signature="e#971#972#0" expanded="false" />
-            <element signature="e#996#997#0" expanded="false" />
-            <element signature="e#1032#1033#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1092#1093#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1162#1163#0" expanded="false" />
-            <element signature="e#1196#1197#0" expanded="false" />
-            <element signature="e#1227#1228#0" expanded="false" />
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1294#1295#0" expanded="false" />
-            <element signature="e#1326#1327#0" expanded="false" />
-            <element signature="e#1357#1358#0" expanded="false" />
-            <element signature="e#1384#1385#0" expanded="false" />
-            <element signature="e#1424#1425#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#1492#1493#0" expanded="false" />
-            <element signature="e#1524#1525#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1616#1617#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Yetkiler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1454,21 +1277,13 @@
         <state relative-caret-position="425">
           <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#660#661#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/SepetDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="71" column="63" lean-forward="false" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/SepetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1490,7 +1305,7 @@
         <state relative-caret-position="442">
           <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#707#708#0" expanded="false" />
           </folding>
         </state>
@@ -1509,28 +1324,7 @@
         <state relative-caret-position="136">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/UrunService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Musteri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1540,17 +1334,7 @@
         <state relative-caret-position="187">
           <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/UrunDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1597,22 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEkle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sepet.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="60" column="110" lean-forward="false" selection-start-line="60" selection-start-column="110" selection-end-line="60" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1630,14 +1398,6 @@
             <element signature="e#1296#1297#0" expanded="true" />
             <element signature="e#1332#1333#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1679,9 +1439,166 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunSayfa.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="62" column="62" lean-forward="false" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+        <state relative-caret-position="544">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/MusteriSiparis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="e#747#748#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="76" column="45" lean-forward="false" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/musteriKayit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunEkle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/UrunDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/MusteriService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/MusteriDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/Musteri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#2471#2472#0" expanded="false" />
+            <element signature="e#2504#2505#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/MusteriAdres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/UrunService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/model/KargoAdres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/service/Impl/MusteriServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/dao/impl/MusteriDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sepet.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1439">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="121" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/musteriKayitBasarili.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/urunDuzenle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1048">
+          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gozlukdukkanim/controller/KayitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

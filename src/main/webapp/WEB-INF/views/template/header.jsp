@@ -67,11 +67,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class=" h_menu4">
             <ul class="memenu skyblue">
-                <li class="color4"><a href="<c:url value="/"/> ">Anasayfa</a></li>
+                <li class="color4"><a class="btn btn-success bg-warning" href="<c:url value="/"/> ">Anasayfa</a>
+                </li>
 
-                <li><a class="color4" href="<c:url value="/urun/urunListe"/> ">Gözlükler</a></li>
-                <li><a class="color6" href="<c:url value="/admin"/> ">Yönetici</a></li>
-                <li><a class="bg-primary" href="<spring:url value="/sepet"/>" ><i class="fa fa-shopping-bag fa-3x"></i> </a> </li>
+                <li><a class="btn btn-success bg-warning" href="<c:url value="/urun/urunListe"/> ">Gözlükler</a>
+                </li>
+                <li><a class="btn btn-success bg-warning" href="<c:url value="/admin"/> ">Yönetici</a></li>
+                <li><a class="btn btn-success bg-warning" href="<c:url value="/kayit"/>">Kayıt</a></li>
+                <li><a class="btn btn-primary " href="<spring:url value="/sepet"/>"><i class="fa fa-shopping-bag fa-2x"></i>
+                    Sepet</a></li>
             </ul>
         </div>
 
