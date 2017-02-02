@@ -105,7 +105,7 @@
                                     <div class="col-xs-9">
                                         <h4 class="text-right">Toplam = <strong>{{hesaplaSepetToplam()}} TL</strong></h4>
                                     </div>
-
+                                    <a href="<spring:url value="/siparis/${sepetId}"/>" class="btn btn-primary"><span class="fa fa-check fa-2x"></span>Onayla</a>
                                 </div>
                             </div>
                         </div>
@@ -119,6 +119,5 @@
 
 
 </div>
-
 <script src="<c:url value="/resources/js/controller.js"/> "></script>
 <%@include file="template/footer.jsp" %>

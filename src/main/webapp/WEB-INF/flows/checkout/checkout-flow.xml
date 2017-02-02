@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+
+    <var name="siparis" class="com.gozlukdukkanim.model.MusteriSiparis"/>
+    <action-state id="sipariseSepetEkle">
+        <evaluate expression="sepetDaoImpl.validate(requestParameters.sepetId)" result="siparis.sepet"/>
+        <transition to="sepetGecersizUyari" on-exception="java.io.IOException"/>
+        <transition to="musteriBilgileriTopla"/>
+
+    </action-state>
+
+    <view-state id="musteriBilgileriTopla" view="musteriBilgileriTopla.jsp" model="siparis">
+        <transition on="musteriBilgileriToplandi" to="kargoAdresBilgileriTopla"/>
+
+    </view-state>
+    <view-state id="kargoAdresBilgileriTopla" view="kargoAdresBilgileriTopla.jsp" model="siparis">
+        <transition on="kargoAdresBilgileriToplandi" to="siparisOnay"/>
+        <transition on="geriMusteriBilgileriTopla" to="musteriBilgileriTopla"/>
+    </view-state>
+    <view-state id="siparisOnay">
+        <transition on="siparisOnaylandi" to="siparisIsle"/>
+        <transition on="geriKargoAdresBilgileriTopla" to="kargoAdresBilgileriTopla"/>
+    </view-state>
+
+    <action-state id="siparisIsle">
+        <evaluate expression="sepetItemDaoImpl.sepetBosalt(siparis.sepet)"/>
+        <transition to="musteriTesekkur"/>
+    </action-state>
+
+    <view-state id="musteriTesekkur" model="siparis">
+        <transition to="bitir"/>
+
+    </view-state>
+    <end-state id="bitir"/>
+    <view-state id="sepetGecersizUyari">
+        <transition to="bitir"/>
+    </view-state>
+    <end-state id="checkoutIptal" view="checkoutIptal.jsp"/>
+
+    <global-transitions>
+        <transition on="iptal" to="checkoutIptal"/>
+    </global-transitions>
+
+</flow>
