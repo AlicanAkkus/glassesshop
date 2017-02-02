@@ -41,7 +41,7 @@
                                         </div>
                                         <br>
                                         <div class="col-xs-6">
-                                            <a href="<spring:url value="/urunListe"/>"
+                                            <a href="<spring:url value="/urun/urunListe"/>"
                                                class="btn btn-primary btn-sm btn-block">
                                                 <i class="fa fa-share" aria-hidden="true"></i> Alışverişe Devam
                                             </a>
@@ -77,15 +77,15 @@
                                     </div>
                                     <div class="col-xs-6">
                                         <div class="col-xs-6 text-right">
-                                            <h6><strong>{{item.urun.urunFiyat}} <span
+                                            <h6><strong>{{item.urun.urunFiyat}} TL <span
                                                     class="text-muted">x</span></strong></h6>
                                         </div>
                                         <div class="col-xs-4">
-                                            <input type="text" class="form-control input-sm" value="{{item.adet}}"
+                                            <input type="text" class="form-control input-sm" value="{{item.adet}} Adet"
                                                    disabled>
                                         </div>
                                         <div class="col-xs-6 text-right">
-                                            <h6><strong> =<span class="text-muted">{{item.toplamFiyat}}</span></strong>
+                                            <h6><strong> =<span class="text-muted">{{item.toplamFiyat}} TL</span></strong>
                                             </h6>
                                         </div>
                                         <div class="col-xs-2">
@@ -96,13 +96,14 @@
                                         </div>
                                     </div>
 
+
                                 </div>
                                 <hr>
                             </div>
                             <div class="panel-footer">
                                 <div class="row text-center">
                                     <div class="col-xs-9">
-                                        <h4 class="text-right">Toplam = <strong>{{sepet.tumToplamFiyat}}</strong></h4>
+                                        <h4 class="text-right">Toplam = <strong>{{hesaplaSepetToplam()}} TL</strong></h4>
                                     </div>
 
                                 </div>

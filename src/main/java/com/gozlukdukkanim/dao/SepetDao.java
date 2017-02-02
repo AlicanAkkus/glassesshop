@@ -7,14 +7,7 @@ import com.gozlukdukkanim.model.Sepet;
  */
 public interface SepetDao {
 
-    Sepet olustur(Sepet sepet);
-
-
-    Sepet oku(String sepetId);
-
-
-    void guncelle(String sepetId, Sepet sepet);
-
-    void sil(String sepetId);
+    Sepet getSepetById(int sepetId);
+    void guncelle(Sepet sepet);
 
 }

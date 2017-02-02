@@ -16,7 +16,7 @@ public class Sepet implements Serializable {
     @Id
     @GeneratedValue
     private int sepetId;
-    @OneToMany(mappedBy = "sepet",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "sepet", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<SepetItem> sepetItemler;
     @OneToOne
     @JoinColumn(name = "musteriId")

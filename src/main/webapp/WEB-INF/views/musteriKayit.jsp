@@ -25,7 +25,7 @@
             <table class="table table-bordered bg-success">
                 <thead>
                 <tr>
-                    <th><label for="isim">İsim Soyisim</label></th>
+                    <th><label for="isim">İsim Soyisim</label></th><form:errors path="musteriIsim"/>
                     <th><form:input path="musteriIsim" id="isim" cssClass="form-control"/></th>
                 </tr>
                 </thead>

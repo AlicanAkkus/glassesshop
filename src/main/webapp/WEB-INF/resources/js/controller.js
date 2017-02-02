@@ -8,7 +8,7 @@ var sepetApp = angular.module("sepetApp", []);
 
 
 sepetApp.controller("sepetCtrl", function ($scope, $http) {
-    $scope.sepetYenile = function (sepetId) {
+    $scope.sepetYenile = function () {
         $http.get("/gozlukdukkanim/rest/sepet/" + $scope.sepetId).success(function (data) {
             $scope.sepet = data;
 
@@ -18,7 +18,7 @@ sepetApp.controller("sepetCtrl", function ($scope, $http) {
 
     $scope.sepetTemizle = function () {
 
-        $http.delete("/gozlukdukkanim/rest/sepet/" + $scope.sepetId).success($scope.sepetYenile($scope.sepetId));
+        $http.delete("/gozlukdukkanim/rest/sepet/" + $scope.sepetId).success($scope.sepetYenile());
 
     };
 
@@ -30,8 +30,8 @@ sepetApp.controller("sepetCtrl", function ($scope, $http) {
     };
 
     $scope.sepeteEkle = function (urunId) {
-        $http.put("/gozlukdukkanim/rest/sepet/ekle/" + urunId).success(function (data) {
-            $scope.sepetYenile($http.get("/gozlukdukkanim/rest/sepet/sepetId"));
+        $http.put("/gozlukdukkanim/rest/sepet/ekle/" + urunId).success(function () {
+
             alert("Ürün sepete eklendi!");
 
         });
@@ -40,10 +40,19 @@ sepetApp.controller("sepetCtrl", function ($scope, $http) {
 
     $scope.sepettenSil = function (urunId) {
         $http.put("/gozlukdukkanim/rest/sepet/sil/" + urunId).success(function (data) {
-            $scope.sepetYenile($http.get("/gozlukdukkanim/rest/sepet/sepetId"))
+            $scope.sepetYenile()
 
         });
 
     };
 
+    $scope.hesaplaSepetToplam = function () {
+        var sepetToplam = 0;
+        for (var i = 0; i < $scope.sepet.sepetItemler.length; i++) {
+            sepetToplam += $scope.sepet.sepetItemler[i].toplamFiyat;
+        }
+
+        return sepetToplam;
+
+    };
 });

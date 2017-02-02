@@ -65,17 +65,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="logo">
             <a href="<c:url value="/" />"><img src="<c:url value="/resources/images/logo.png" />" alt=""></a>
         </div>
-        <div class=" h_menu4">
+        <div class="h_menu4">
             <ul class="memenu skyblue">
+                <c:if test="${pageContext.request.userPrincipal.name!=null}">
+                    <li><a>Hoşgeldiniz:${pageContext.request.userPrincipal.name}</a></li>
+                    <li><a class="btn btn-danger" href="<c:url value="/j_spring_security_logout"/>">Çıkış</a></li>
+                </c:if>
                 <li class="color4"><a class="btn btn-success bg-warning" href="<c:url value="/"/> ">Anasayfa</a>
                 </li>
 
                 <li><a class="btn btn-success bg-warning" href="<c:url value="/urun/urunListe"/> ">Gözlükler</a>
                 </li>
-                <li><a class="btn btn-success bg-warning" href="<c:url value="/admin"/> ">Yönetici</a></li>
-                <li><a class="btn btn-success bg-warning" href="<c:url value="/kayit"/>">Kayıt</a></li>
-                <li><a class="btn btn-primary " href="<spring:url value="/sepet"/>"><i class="fa fa-shopping-bag fa-2x"></i>
-                    Sepet</a></li>
+
+
+                <c:if test="${pageContext.request.userPrincipal.name== 'admin'}">
+                    <li><a class="btn btn-success bg-warning" href="<c:url value="/admin"/> ">Yönetici Paneli</a></li>
+                </c:if>
+                <c:if test="${pageContext.request.userPrincipal.name==null}">
+                    <li><a class="btn btn-success bg-warning" href="<c:url value="/giris"/> ">Giriş</a></li>
+                    <li><a class="btn btn-success bg-warning" href="<c:url value="/kayit"/>">Kaydol</a></li>
+                </c:if>
+                <c:if test="${pageContext.request.userPrincipal.name!='admin' && pageContext.request.userPrincipal.name!=null}">
+                    <li><a class="btn btn-primary " href="<c:url value="/musteri/sepet"/>"><i
+                            class="fa fa-shopping-bag fa-2x"></i>
+                        Sepet</a></li>
+                </c:if>
             </ul>
         </div>
 

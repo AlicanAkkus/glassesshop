@@ -14,4 +14,6 @@ public interface MusteriDao {
     Musteri getMusteriById(int musteriId);
 
     List<Musteri> getTumMusteriler();
+
+    Musteri getMusteriByKullaniciadi(String kullaniciadi);
 }

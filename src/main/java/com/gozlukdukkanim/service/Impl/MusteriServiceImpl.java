@@ -30,4 +30,8 @@ public class MusteriServiceImpl implements MusteriService {
     public List<Musteri> getTumMusteriler() {
         return musteriDao.getTumMusteriler();
     }
+
+    public Musteri getMusteriByKullaniciadi(String kullaniciadi) {
+        return musteriDao.getMusteriByKullaniciadi(kullaniciadi);
+    }
 }

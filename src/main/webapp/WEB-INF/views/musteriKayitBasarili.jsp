@@ -13,7 +13,8 @@
         <section>
             <div class="jumbotron">
                 <div class="container">
-                    <h1>Müşteri Başarıyla Kaydedildi.</h1>
+                    <h1>Tebrikler, başarıyla kaydoldunuz.</h1>
+                    <h2>Alışveriş yapmak için lütfen kullanıcı adı ve şifrenizle giriş yapınız.</h2>
                 </div>
             </div>
         </section>

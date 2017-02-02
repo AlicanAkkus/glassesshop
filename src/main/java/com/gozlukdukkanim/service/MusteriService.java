@@ -11,5 +11,7 @@ public interface MusteriService {
     void musteriEkle(Musteri musteri);
     Musteri getMusteriById(int musteriId);
     List<Musteri> getTumMusteriler();
+    Musteri getMusteriByKullaniciadi(String kullaniciadi);
+
 
 }

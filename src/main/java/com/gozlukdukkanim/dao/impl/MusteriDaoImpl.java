@@ -19,7 +19,7 @@ import java.util.List;
  */
 @Repository
 @Transactional
-public class MusteriDaoImpl implements MusteriDao{
+public class MusteriDaoImpl implements MusteriDao {
     @Autowired
     SessionFactory sessionFactory;
 
@@ -35,7 +35,7 @@ public class MusteriDaoImpl implements MusteriDao{
         yeniKullanici.setKullaniciadi(musteri.getKullaniciadi());
         yeniKullanici.setSifre(musteri.getSifre());
         yeniKullanici.setEnabled(true);
-        yeniKullanici.setKullaniciId(musteri.getMusteriId());
+        yeniKullanici.setMusteriId(musteri.getMusteriId());
 
 
         Yetkiler yeniYetki = new Yetkiler();
@@ -63,5 +63,13 @@ public class MusteriDaoImpl implements MusteriDao{
         Query query = session.createQuery("from Musteri");
         List<Musteri> musteriListe = query.list();
         return musteriListe;
+    }
+
+    public Musteri getMusteriByKullaniciadi(String kullaniciadi) {
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery("from Musteri where kullaniciadi = ?");
+        query.setString(0, kullaniciadi);
+
+        return (Musteri) query.uniqueResult();
     }
 }

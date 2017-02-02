@@ -73,7 +73,7 @@
                     <p ng-controller="sepetCtrl">
                         <a href="<c:url value="${url}"/> " class="btn btn-sq btn-primary"><i class="fa fa-reply fa-5x" aria-hidden="true"></i> <br>Geri</a>
                         <a href="#" class="btn btn-sq btn-warning" ng-click="sepeteEkle('${urun.urunId}')"><i class="fa fa-cart-plus fa-5x" aria-hidden="true"></i><br> Sepete Ekle </a>
-                        <a href="<spring:url value="/sepet"/> " class="btn btn-sq btn-info"><i class="fa fa-shopping-bag fa-5x" aria-hidden="true"></i><br>Sepeti Görüntüle </a>
+                        <a href="<spring:url value="/musteri/sepet"/> " class="btn btn-sq btn-info"><i class="fa fa-shopping-bag fa-5x" aria-hidden="true"></i><br>Sepeti Görüntüle </a>
                     </p>
                 </div>
 
