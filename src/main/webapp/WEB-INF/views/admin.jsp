@@ -30,11 +30,16 @@
                             <i class="fa fa-cart-plus fa-5x"></i><br/>
                             <br>Ürün Ekle
                         </a>
+                        <a href="<c:url value="/admin/musteri" />" class="btn btn-sq-lg btn-warning">
+                            <i class="fa fa-address-card-o fa-5x"></i><br/>
+                            <br>Müşteri Yönetim
+                        </a>
 
                         <a href="<c:url value="/j_spring_security_logout" />" class="btn btn-sq-lg btn-info">
                             <i class="fa fa-sign-out fa-5x"></i><br/>
                             <br>Çıkış
                         </a>
+
 
                     </p>
                 </div>

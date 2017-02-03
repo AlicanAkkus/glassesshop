@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.IOException;
 import java.util.List;
@@ -21,7 +22,7 @@ public class UrunController {
     @Autowired
     private UrunService urunService;
 
-    @RequestMapping("/urunListe")
+    @RequestMapping("/urunListe/hepsi")
     public String getUrunler(Model model){
         List<Urun> urunler = urunService.getUrunListe();
         model.addAttribute("urunler",urunler);
@@ -35,6 +36,17 @@ public class UrunController {
         Urun urun = urunService.getUrunById(urunId);
         model.addAttribute("urun",urun);
         return "urunSayfa";
+
+    }
+
+    @RequestMapping("/urunListe")
+    public String getUrunByKategori(@RequestParam("aramaSarti") String aramaSarti, Model model){
+        List<Urun> urunler = urunService.getUrunListe();
+        model.addAttribute("urunler",urunler);
+        model.addAttribute("aramaSarti",aramaSarti);
+
+
+        return "urunListe";
 
     }
 

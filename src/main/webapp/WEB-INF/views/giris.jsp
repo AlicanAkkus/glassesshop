@@ -15,7 +15,7 @@
         <div class="wrapper">
             <form action="<c:url value="/j_spring_security_check"/> " method="post" name="Login_Form"
                   class="form-signin">
-                <h3 class="form-signin-heading">Yönetici Paneline Gitmek için Lütfen Giriş Yapınız!</h3>
+                <h3 class="form-signin-heading">Sepetinize Gitmek veya Alışveriş Yapmak İçin Lütfen Giriş Yapınız!</h3>
                 <hr class="colorgraph">
                 <br>
 

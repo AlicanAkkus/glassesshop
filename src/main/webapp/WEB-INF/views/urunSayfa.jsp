@@ -59,21 +59,33 @@
                             <td class="urunfiyat">${urun.urunFiyat} TL</td>
                         </tr>
                         </tbody>
-                        <c:set var="role" scope="page" value="${param.role}"/>
+                        <c:set var="role" scope="page" value="${pageContext.request.userPrincipal.name}"/>
                         <c:set var="url" scope="page" value="/urun/urunListe"/>
                         <c:if test="${role=='admin'}">
                             <c:set var="url" scope="page" value="/admin/urunEnvanter"/>
                         </c:if>
 
 
-
-
                     </table>
 
                     <p ng-controller="sepetCtrl">
-                        <a href="<c:url value="${url}"/> " class="btn btn-sq btn-primary"><i class="fa fa-reply fa-5x" aria-hidden="true"></i> <br>Geri</a>
-                        <a href="#" class="btn btn-sq btn-warning" ng-click="sepeteEkle('${urun.urunId}')"><i class="fa fa-cart-plus fa-5x" aria-hidden="true"></i><br> Sepete Ekle </a>
-                        <a href="<spring:url value="/musteri/sepet"/> " class="btn btn-sq btn-info"><i class="fa fa-shopping-bag fa-5x" aria-hidden="true"></i><br>Sepeti Görüntüle </a>
+                        <a href="<c:url value="${url}"/> " class="btn btn-sq btn-primary"><i class="fa fa-reply fa-5x"
+                                                                                             aria-hidden="true"></i>
+                            <br>Geri</a>
+                        <a href="<c:if test="${pageContext.request.userPrincipal.name=='admin' || pageContext.request.userPrincipal.name==null }">
+                        <c:url value="/giris"/>
+</c:if>" class="btn btn-sq btn-warning" ng-click="sepeteEkle('${urun.urunId}')"><i class="fa fa-cart-plus fa-5x"
+                                                                                   aria-hidden="true"></i><br> Sepete
+                            Ekle </a>
+                        <c:if test="${pageContext.request.userPrincipal.name!='admin'}">
+                        <a href="
+<c:if test="${pageContext.request.userPrincipal.name!='admin' || pageContext.request.userPrincipal.name!=null}">
+                        <spring:url value="/musteri/sepet"/>
+</c:if>"
+                           class="btn btn-sq btn-info"><i class="fa fa-shopping-bag fa-5x"
+                                                          aria-hidden="true"></i><br>Sepeti Görüntüle
+                        </a>
+                        </c:if>
                     </p>
                 </div>
 

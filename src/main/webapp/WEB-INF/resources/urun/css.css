@@ -58,14 +58,14 @@
 
 .productdesc {
     text-align: center;
-
+    border: groove;
+    border-color: black;
     padding: 10px;
     margin-bottom: 10px;
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
     border-radius: 10px;
-    border: double;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;

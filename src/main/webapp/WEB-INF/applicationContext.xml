@@ -46,7 +46,7 @@
         <security:intercept-url pattern="/musteri/**" access="ROLE_USER"/>
         <security:form-login
                 login-page="/giris"
-                default-target-url="/urun/urunListe"
+                default-target-url="/urun/urunListe/hepsi"
                 authentication-failure-url="/giris?hata"
                 username-parameter="kullaniciadi"
                 password-parameter="sifre"/>

@@ -25,13 +25,13 @@
             <table class="table table-bordered bg-success">
                 <thead>
                 <tr>
-                    <th><label for="isim">İsim Soyisim</label></th><form:errors path="musteriIsim"/>
+                    <th><label for="isim">İsim Soyisim</label><form:errors path="musteriIsim" cssStyle="color:red"/></th>
                     <th><form:input path="musteriIsim" id="isim" cssClass="form-control"/></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th><label for="email">E-Mail</label></th>
+                    <th><label for="email">E-Mail</label><span style="color: red">${emailMsj} </span><form:errors path="musteriIsim" cssStyle="color:red"/></th>
                     <td><form:input path="musteriEmail" id="email" cssClass="form-control"/></td>
                 </tr>
                 <tr>
@@ -39,11 +39,11 @@
                     <td><form:input path="musteriTel" id="telefon" cssClass="form-control"/></td>
                 </tr>
                 <tr>
-                    <td><label for="kullaniciadi">Kullanıcı Adı</label></td>
+                    <td><label for="kullaniciadi">Kullanıcı Adı</label><span style="color: red">${kullaniciadiMsj} </span><form:errors path="kullaniciadi" cssStyle="color:red"/></td>
                     <td><form:input path="kullaniciadi" id="kullaniciadi" cssClass="form-control"/></td>
                 </tr>
                 <tr>
-                    <td><label for="sifre">Şifre</label></td>
+                    <td><label for="sifre">Şifre</label><form:errors path="sifre" cssStyle="color:red"/></td>
                     <td><form:password path="sifre" id="sifre" cssClass="form-control"/></td>
                 </tr>
                 </tbody>

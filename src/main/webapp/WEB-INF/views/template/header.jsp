@@ -25,7 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <title>Gözlük Dükkanı</title>
     <link href="<c:url value="/resources/css/bootstrap.css"/> " rel="stylesheet" type="text/css" media="all"/>
-    <script src="<c:url value="/resources/js/angular.min.js"/> "
+    <script src="<c:url value="/resources/js/angular.min.js"/> "></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
     <link href="<c:url value="/resources/urun/css.css"/> " rel="stylesheet" type="text/css"/>
@@ -56,6 +56,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         $(".memenu").memenu();
     });</script>
     <script src="<c:url value="/resources/js/simpleCart.min.js"/>"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+    <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
 </head>
 <body class="bg-info">
 <!--header-->
@@ -74,7 +76,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <li class="color4"><a class="btn btn-success bg-warning" href="<c:url value="/"/> ">Anasayfa</a>
                 </li>
 
-                <li><a class="btn btn-success bg-warning" href="<c:url value="/urun/urunListe"/> ">Gözlükler</a>
+                <li><a class="btn btn-success bg-warning" href="<c:url value="/urun/urunListe/hepsi"/> ">Gözlükler</a>
                 </li>
 
 

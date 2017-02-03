@@ -1,5 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="template/header.jsp" %>
+<script>
+    $(document).ready(function () {
+
+        $('.table').DataTable({
+            "lengthMenu": [[3, 5, 10, -1], [3,5,10], "Hepsi"]
+        });
+    })
+
+</script>
 
 
 <div class="container-wrapper">
@@ -29,10 +38,10 @@
             <c:forEach items="${urunler}" var="urun">
                 <tr>
                     <td><img class="urunresim" src="<c:url value="/resources/urun_resimler/${urun.urunId}.png"/> "
-                             alt="image" style="width: 100%"/></td>
+                             alt="image" style="width:150px"/></td>
                     <td>${urun.urunMarka}</td>
                     <td>${urun.urunKategori}</td>
-                    <td>${urun.urunAciklama}</td>
+                    <td style="word-break: break-all">${urun.urunAciklama}</td>
                     <td>${urun.urunRenk}</td>
                     <td>${urun.urunCins}</td>
                     <td>${urun.urunStok}</td>

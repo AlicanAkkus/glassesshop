@@ -14,14 +14,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
+import java.util.List;
 
 /**
  * Created by memoricAb on 1.02.2017.
  */
 @Controller
 public class KayitController {
-     @Autowired
-     private MusteriService musteriService;
+    @Autowired
+    private MusteriService musteriService;
 
     @RequestMapping("/kayit")
     public String musteriKayit(Model model) {
@@ -37,8 +38,22 @@ public class KayitController {
     }
 
     @RequestMapping(value = "/kayit", method = RequestMethod.POST)
-    public String musteriKayitPost(@ModelAttribute("musteri") Musteri musteri, Model model) {
-        musteri.setEnabled(true);
+    public String musteriKayitPost(@Valid @ModelAttribute("musteri") Musteri musteri, BindingResult result, Model model) {
+        if (result.hasErrors()) {
+            return "musteriKayit";
+        }
+        List<Musteri> musteriListe = musteriService.getTumMusteriler();
+        for (int i = 0; i<musteriListe.size();i++){
+            if(musteri.getMusteriEmail().equals(musteriListe.get(i).getMusteriEmail())){
+                model.addAttribute("emailMsj","E-mail zaten kullanılıyor!");
+                return "musteriKayit";
+            }
+            if(musteri.getKullaniciadi().equals(musteriListe.get(i).getKullaniciadi())){
+                model.addAttribute("kullaniciadiMsj","Kullanıcıadı zaten kullanılıyor!");
+                return "musteriKayit";
+            }
+        }
+            musteri.setEnabled(true);
         musteriService.musteriEkle(musteri);
 
         return "musteriKayitBasarili";

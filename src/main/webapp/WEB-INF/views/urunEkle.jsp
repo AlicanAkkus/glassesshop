@@ -49,7 +49,7 @@
                     </tr>
                     <tr>
                         <td><label for="aciklama">Ürün Açıklaması</label></td>
-                        <td><form:input path="urunAciklama" id="aciklama" cssClass="form-control"/></td>
+                        <td><form:textarea path="urunAciklama" id="aciklama" cssClass="form-control"/></td>
                     </tr>
                     <tr>
                         <td><label for="renk">Ürün Rengi</label></td>

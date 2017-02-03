@@ -35,7 +35,6 @@ sepetApp.controller("sepetCtrl", function ($scope, $http) {
             alert("Ürün sepete eklendi!");
 
         });
-
     };
 
     $scope.sepettenSil = function (urunId) {
@@ -55,4 +54,6 @@ sepetApp.controller("sepetCtrl", function ($scope, $http) {
         return sepetToplam;
 
     };
+
+
 });

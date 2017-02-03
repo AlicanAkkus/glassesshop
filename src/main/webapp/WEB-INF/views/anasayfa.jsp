@@ -1,4 +1,5 @@
-<%@include file="template/header.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="template/header.jsp" %>
 
 <div class="banner">
     <div class="container">
@@ -19,34 +20,27 @@
                 <li>
 
                     <div class="banner-text">
-                        <h3 style="color:red" class="jumbotron alert-info">Lorem Ipsum is not simply dummy </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                            Latin professor .</p>
-                        <a href="single.html">Learn More</a>
+                        <h3 style="color:red; opacity: 0.8" class="jumbotron alert-info"><img class="img-responsive" style="width: 20%" src="<c:url value="/resources/images/kalite-guvencesi.png"/>">Kalite Güvencesi</h3>
+                        <p>33 İLDE 154 NOKTADA KOLAY İADE / DEĞİŞİM
+                            Hasarsız ürününüz ve orijinal faturanızla
+                            14 günde iade 30 günde değişim imkanı</p>
                     </div>
 
                 </li>
                 <li>
 
                     <div class="banner-text">
-                        <h3>There are many variations </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                            Latin professor .</p>
-                        <a href="single.html">Learn More</a>
-
+                        <h3 style="color:red; opacity: 0.8" class="jumbotron alert-info"><img class="img-responsive" style="width: 20%" src="<c:url value="/resources/images/ultrasonik-temizlik.png"/>">Ömür Boyu Ücretsiz Bakım</h3>
+                        <p>Güneş gözlüklerinin plaket,sap,vida ayarı
+                            ve vida değişimi. Gözlükçüm.com'dan alınmamış olsa dahi istediğiniz
+                            zaman tüm noktalarımızda ücretsiz temizlik</p>
                     </div>
 
                 </li>
                 <li>
                     <div class="banner-text">
-                        <h3>Sed ut perspiciatis unde omnis</h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                            Latin professor .</p>
-                        <a href="single.html">Learn More</a>
-
+                        <h3  style="color:red; opacity: 0.8" class="jumbotron alert-info"><img class="img-responsive" style="width: 20%" src="<c:url value="/resources/images/ucretsiz-bakim.png"/>">Türkiye'nin Her yerinde</h3>
+                        <p>Gözlükçüm.com dünyasına adım attığınız ilk andan itibaren, güler yüzlü, ilgili, deneyimli ekibimiz ve canlı destek hizmetimizle farklı deneyim yaşarsınız.</p>
                     </div>
 
                 </li>
@@ -58,92 +52,63 @@
 
 <!--content-->
 <div class="content">
-    <div class="container bg-danger">
-        <div class="content-top">
-            <div class="jumbotron">
-                <h1 class="page-header">NEW RELEASED</h1>
-                <div class="grid-in">
-                    <div class="col-md-4 grid-top">
-                        <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive"
-                                                                                                src="images/pi.jpg"
-                                                                                                alt="">
-                            <div class="b-wrapper">
-                                <h3 class="b-animate b-from-left    b-delay03 ">
-                                    <span>T-Shirt</span>
-                                </h3>
-                            </div>
-                        </a>
+    <div class="container">
+        <div class="content-top bg-success img-rounded">
+            <h1>ÜRÜNLERİMİZ</h1>
+            <div class="grid-in">
+                <div class="col-xs-6 grid-top bg-primary img-circle">
+                    <a href="<c:url value="/urun/urunListe?aramaSarti=uzak" />" class="b-link-stripe b-animate-go  thickbox img-circle"><img
+                            class="img-responsive" src="<c:url value="/resources/images/uzakgozlugu.png"/> " alt="">
+                        <div class="b-wrapper">
+                            <h3 class="b-animate b-from-left    b-delay03 ">
+                                <span>UZAK GÖZLÜKLERİ</span>
+                            </h3>
+                        </div>
+                    </a>
 
 
-                        <p><a href="single.html">Contrary to popular</a></p>
-                    </div>
-                    <div class="col-md-4 grid-top">
-                        <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive"
-                                                                                                src="images/pi1.jpg"
-                                                                                                alt="">
-                            <div class="b-wrapper">
-                                <h3 class="b-animate b-from-left    b-delay03 ">
-                                    <span>Shoe</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <p><a href="single.html">classical Latin</a></p>
-                    </div>
-                    <div class="col-md-4 grid-top">
-                        <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive"
-                                                                                                src="images/pi2.jpg"
-                                                                                                alt="">
-                            <div class="b-wrapper">
-                                <h3 class="b-animate b-from-left    b-delay03 ">
-                                    <span>Bag</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <p><a href="single.html">undoubtable</a></p>
-                    </div>
-                    <div class="clearfix"></div>
                 </div>
-                <div class="grid-in">
-                    <div class="col-md-4 grid-top">
-                        <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive"
-                                                                                                src="images/pi3.jpg"
-                                                                                                alt="">
-                            <div class="b-wrapper">
-                                <h3 class="b-animate b-from-left    b-delay03 ">
-                                    <span>Shirt</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <p><a href="single.html">suffered alteration</a></p>
-                    </div>
-                    <div class="col-md-4 grid-top">
-                        <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive"
-                                                                                                src="images/pi4.jpg"
-                                                                                                alt="">
-                            <div class="b-wrapper">
-                                <h3 class="b-animate b-from-left    b-delay03 ">
-                                    <span>Bag</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <p><a href="single.html">Content here</a></p>
-                    </div>
-                    <div class="col-md-4 grid-top">
-                        <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive"
-                                                                                                src="images/pi5.jpg"
-                                                                                                alt="">
-                            <div class="b-wrapper">
-                                <h3 class="b-animate b-from-left    b-delay03 ">
-                                    <span>Shoe</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <p><a href="single.html">readable content</a></p>
-                    </div>
-                    <div class="clearfix"></div>
+
+                <div class="col-xs-6 grid-top bg-primary img-circle">
+                    <a href="<c:url value="/urun/urunListe?aramaSarti=yakın" />" class="b-link-stripe b-animate-go  thickbox img-circle"><img
+                            class="img-responsive" src="<c:url value="/resources/images/yakingozluk.png"/> " alt="">
+                        <div class="b-wrapper">
+                            <h3 class="b-animate b-from-left    b-delay03 ">
+                                <span>YAKIN GÖZLÜKLERİ</span>
+                            </h3>
+                        </div>
+                    </a>
+
                 </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="grid-in">
+                <div class="col-xs-6 grid-top bg-primary img-circle">
+                    <a href="<c:url value="/urun/urunListe?aramaSarti=prograsif" />" class="b-link-stripe b-animate-go  thickbox img-circle"><img
+                            class="img-responsive" src="<c:url value="/resources/images/prograsif.png"/> " alt="">
+                        <div class="b-wrapper">
+                            <h3 class="b-animate b-from-left    b-delay03 ">
+                                <span>PROGRESİF GÖZLÜKLER</span>
+                            </h3>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-xs-6 grid-top bg-primary img-circle">
+                    <a href="<c:url value="/urun/urunListe?aramaSarti=güneş"/>" class="b-link-stripe b-animate-go  thickbox img-circle"><img
+                            class="img-responsive" src="<c:url value="/resources/images/gunesgozluk.png"/> " alt="">
+                        <div class="b-wrapper">
+                            <h3 class="b-animate b-from-left    b-delay03 ">
+                                <span>GÜNEŞ GÖZLÜKLERİ</span>
+                            </h3>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="clearfix"></div>
             </div>
         </div>
         <!----->
 
-<%@include file="template/footer.jsp"%>
+<%@include file="template/footer.jsp" %>
