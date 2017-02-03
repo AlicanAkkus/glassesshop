@@ -41,7 +41,7 @@
                                         </div>
                                         <br>
                                         <div class="col-xs-6">
-                                            <a href="<spring:url value="/urun/urunListe"/>"
+                                            <a href="<spring:url value="/urun/urunListe/hepsi"/>"
                                                class="btn btn-primary btn-sm btn-block">
                                                 <i class="fa fa-share" aria-hidden="true"></i> Alışverişe Devam
                                             </a>

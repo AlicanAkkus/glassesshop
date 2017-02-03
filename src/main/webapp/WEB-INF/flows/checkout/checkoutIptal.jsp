@@ -21,7 +21,7 @@
         </section>
         <section class="container">
             <p>
-                <a href="<spring:url value="/urun/urunListe"/>" class="btn btn-primary">Ürünler</a>
+                <a href="<spring:url value="/urun/urunListe/hepsi"/>" class="btn btn-primary">Ürünler</a>
             </p>
         </section>
     </div>
